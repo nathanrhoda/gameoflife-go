@@ -9,4 +9,5 @@ Getting more familiar with GO by implementing Game of Life TDD style
 - Test dead cell with exactly 3 live neighbours becomes a live cell (reproduction)
 
 
+https://levelup.gitconnected.com/using-modules-and-packages-in-go-36a418960556
 https://github.com/golang/go/issues/38486

@@ -8,13 +8,9 @@ import (
 )
 
 func TestCreateCell(t *testing.T) {
+	x := 0
+	y := 0
 
-	c := cell.Cell{
-		x:       1,
-		y:       2,
-		isAlive: false,
-	}
-
-	alive := c.CreateCell()
-	assert.Equal(t, true, alive)
+	c := cell.CreateCell(x, y)
+	assert.Equal(t, false, c.isAlive)
 }
