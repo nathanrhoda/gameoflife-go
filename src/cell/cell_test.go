@@ -1,7 +1,7 @@
 package cell_test
 
 import (
-	"cell"
+	"main/cell"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -12,5 +12,8 @@ func TestCreateCell(t *testing.T) {
 	y := 0
 
 	c := cell.CreateCell(x, y)
-	assert.Equal(t, false, c.isAlive)
+
+	c = c
+	assert.False(t, c.isAlive)
+
 }
