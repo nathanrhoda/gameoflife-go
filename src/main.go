@@ -22,4 +22,7 @@ func main() {
 		isAlive: true,
 	}
 	fmt.Println(b.isAlive)
+	fmt.Println(c.IsAlive)
+	fmt.Println(c.X)
+	fmt.Println(c.Y)
 }
